@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="cont">
+        <div class="main-in ">
+            <h1 class="main-prg  ">Cruds System</h1>
+        <h2 class="sec-prg  ">for any project management</h2>
+        <div class="input  ">
+            <form action="">
+                <input type="text" placeholder="Title" id="title">
+                <br><br>
+                <input onkeyup=" getTotal()" type="number" placeholder="price" id="price">
+                <input onkeyup=" getTotal()" type="number" placeholder="Ads" id="Ads">
+                <input onkeyup=" getTotal()" type="number" placeholder="Taxes" id="Taxes">
+                <input onkeyup=" getTotal()" type="number" placeholder="Discount" id="Discount">
+                <p id="total" >total: </p>
+                <br><br>
+                <input type="count" placeholder="count" id="count">
+                <br><br>
+                <input type="text" placeholder="catogry" id="catogry">
+                <br><br>
+                <div class="btn btn-outline-primary" id="creat">creat</div>
+               
+            </form>
+           <div id='mon'></div>
+        </div>
+        </div>
+  
+        <div class="output">
+            <table>
+             <thead>
+                 <tr>
+                     <td>id</td>
+                     <td>Titel</td>
+                     <td>Price</td>
+                     <td>taxes</td>
+                     <td id="a">ads</td>
+                     <td>Discount</td>
+                     <td>catogry</td>
+                     <td>total</td>
+                     <td >  <div class="btn btn-outline-primary" id="Frist-up">ubdate</div>
+                        <div class="btn btn-outline-primary" id="Frist-Delet">Delet</div>
+                     </td>
+                 </tr>
+             </thead>
+
+             <tbody id="tb">
+            
+             </tbody>
+            </table>
+         </div>
+        </div>
+      
+      
+     
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>  
+</body>
+</html>

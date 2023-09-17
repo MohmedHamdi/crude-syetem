@@ -1,0 +1,96 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+
+.cont{
+   text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    position: relative;
+    left: 8%;
+   
+}
+.main-prg,.sec-prg{
+    color: rgb(243, 243, 247);
+   
+  margin: 20px;
+}
+.main-prg{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#title{
+    margin-top: 20px;
+   
+}
+#title,#count,#catogry{
+    border: none;
+    outline: none;
+    
+    border-radius: 30px;
+    width: 100%;
+    color: black;
+    padding: 3px;
+}
+#price,#Ads,#Taxes,#Discount{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 2px;
+    width:22%;
+}
+#total{
+    color: white;
+    position: relative;
+    display: inline-block;
+   
+   
+    font-size: 20px;
+    background-color: red;
+   max-width: 20%;
+}
+#creat{
+    width:80%;
+    border-radius: 15px;
+    padding: 4px;
+   font-weight: 900;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+}
+table{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+table thead td {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+
+}
+#s-up,#s-Delet{
+    margin: 10px;
+    margin-top: 5px;
+}
+#DeletAll1{
+    margin: 20px;
+width: 70%;
+background-color: blue;
+border-radius: 15px;
+padding: 2px;
+text-align: center;
+position: relative;
+
+}
